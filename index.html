@@ -1,112 +1,190 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="images/logo2.png">
-<title>GameMyWay</title>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="UTF-8">
+  <link rel="icon" href="img/Africhella.png" >
+  <style>@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');</style>
+  <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/afri.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+  font-size: smaller;
+  font-family: 'Amiko';
+  color: #9b8884;
+}
+
+.flex-item-right {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+  font-size: smaller;
+  font-family: 'Amiko';
+  color: #9b8884;
+}
+.jj {
+  font-family: 'Allison', cursive; 
+  font-size: 35px;
+  color: #9b8884;
+}
+ul {
+  font-size: 27px;
+  font-family: 'Amiko';
+  font-weight: bold;
+  color: #9b8884;
+}
+header {
+  position: fixed;
+  width: 100%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px){
+  .flex-container {
+    flex-direction: column;
+    font-size: smaller;
+  font-family: 'Amiko';
+  color: #9b8884;
+  }
+  header {
+  position: fixed;
+  width: 100%;
+  height: 25px;
+}
+.jj {
+  font-family: 'Allison', cursive; 
+  font-size: 25px;
+  color: #9b8884;
+}
+ul {
+  font-size: 17px;
+  font-family: 'Amiko';
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: -34px;
+  color: #9b8884;
+}
+}
+</style>
+  <title>Africhella</title>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b04a05239b36c1cd23c0aec46/28c41527d033d75ad8b6735ea.js");</script>
 </head>
+
 <body>
+    <div>
+  <header>
+    
+    <ul>AFRICHELLA <b class="jj"> by</b>  BIMPE</ul>
+  </header>
+  </div>
+  <br>
+    <main>
+        <section id="home" width="100%">
+            <div class="center">
+                <div class="w3-content" class="clearfix center">
+        
+                  <a href="index.html"><img class="rounded center funny" src="img/afri1.png"
+                      style="width:100%"></a>
 
-	<nav id="navbar">
-		<ul>
-		   <li><a href="#section3">Download</a></li>
-		   <li><a href="#section2">About</a></li>
-		   <li><a href="#section1">Home</a></li>
-		 </ul>
-	 </nav>
+                  <a href=""><img class="rounded center funny" src="img/afri2.png"
+                      style="width:100%"></a>
 
-
-
-<div class="block-row banner" id="section1" data-parallax="scroll" data-image-src="images/bg1.png">
-	<div class="container home">
-		<h1>GameMyWay</h1>
-		<p class="sub-text">What's more fun?<br>Making money while gaming!</p>
-	</div>
-</div>
-<div class="block-row features" id="section2"  data-parallax="scroll" data-image-src="images/bg2.png">
-	<div class="container">
-		<h2>Features</h2>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="feature_box clearfix">
-					<figure>
-						<img src="images/earnwhileplayin.gif" alt="CashRewards">
-					</figure>
-					<div class="description">
-						<h3>Earn Cash Rewards</h3>
-						<p> Ever dream't of earning cash while having fun?<br>
-							Here's your shot! Win cash prices while you play.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="feature_box clearfix">
-					<figure>
-						<img src="images/weeklychallenges.gif" alt="WeeklyChallenges">
-					</figure>
-					<div class="description">
-						<h3>Weekly Challenges</h3>
-						<p>New week, New challenges.<br>
-							Play new Challenges weekly and be the best.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="feature_box clearfix">
-					<figure>
-						<img src="images/beatthetime.gif" alt="Timing">
-					</figure>
-					<div class="description">
-						<h3>Beat The Time</h3>
-						<p>Problem blocks are right in front of you,<br>
-							would you win the race against time?</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="feature_box clearfix">
-					<figure>
-						<img src="images/bg4.gif" alt="LeaderBoard">
-					</figure>
-					<div class="description">
-						<h3>Leader Board</h3>
-						<p>Want to top your friends on the list?,<br>
-							Play more and rank top on the leaderboard!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="block-row contact" id="section3"  data-parallax="scroll" data-image-src="images/bg3.png">
-	<div class="container">
-		<h2>Download</h2>
-		
-			<div class="flexy-container">
-                <div class="flexy-item-left ggl"><a href="/"><img src="https://i.ibb.co/zrQzwf5/googlelogo.png"
-                            alt="googlelogo" style="width: 150px; "></a></div>
-							<br>
-                <div class="flexy-item-right"><a href=""><img src="https://i.ibb.co/CHYfwzQ/applelogo.png"
-                            alt="applelogo" style="width: 150px;"></a></div>
-            </div>
-
-	</div>
-</div>			
-<div class="cookie-banner" style=" display: none;">
-	<p>
-		By using our website, you agree to our 
-		<a class="cookiepolicy" href="cookiepolicy.html">cookie policy</a>
-	  </p>
-	<button class="close">&times;</button>
-	</div>
-<footer class="footer">
-	© GameMyWay 2021
-</footer>
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/jquery-1.4.1.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+                  <a href=""><img class="rounded center funny" src="img/afri3.png"
+                        style="width:100%"></a>
+        
+                  <a href="https://0gvfdeynxbu.typeform.com/to/sjbBEL5f"><img class="rounded center funny" src="img/afri5.png"
+                      style="width:100%"></a>
+        
+                  <br>
+                </div>
+              </div>
+        </div>
+        </section>
+        
+      <section>
+        <div class="flex-container">
+          <br>
+            <br>
+            <div class="flex flex-item-left"><br><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-eyedropper" viewBox="0 0 16 16" style="color: #9b8884;">
+                <path d="M13.354.646a1.207 1.207 0 0 0-1.708 0L8.5 3.793l-.646-.647a.5.5 0 1 0-.708.708L8.293 5l-7.147 7.146A.5.5 0 0 0 1 12.5v1.793l-.854.853a.5.5 0 1 0 .708.707L1.707 15H3.5a.5.5 0 0 0 .354-.146L11 7.707l1.146 1.147a.5.5 0 0 0 .708-.708l-.647-.646 3.147-3.146a1.207 1.207 0 0 0 0-1.708l-2-2zM2 12.707l7-7L10.293 7l-7 7H2v-1.293z"/>
+              </svg><br><br><b>Hand Crafted</b><br><br>
+            Handmade, organic cosmetic products,<br>
+            made just for a beautiful lady like you.</div>
+            <br>
+            <br>
+            
+            <div class="flex flex-item-right"><br><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16" style="color: #9b8884;">
+                <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg><br><br><b>Fast Delivery</b><br><br>
+            We work around the clock<br>
+            to ensure swift delivery.</div>
+            <br>
+            <br>
+            
+             <div class="flex flex-item-right"><br><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16" style="color: #9b8884;">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+              <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/>
+            </svg><br><br><b>Friendly Prices</b><br><br>
+            Our cosmetics are cost effective,<br>
+            we don't overcharge.</div>
+          </div>
+          
+      </section>
+      <br>
+      <br>
+      <section>
+        <div id="gif">
+            <a href="https://africhella.company.site/"><img class="funny" src="img/afri6.png"
+                style="width:100%"></a>
+      </div>
+      </section>
+      
+      <section>
+        <div id="gif">
+          <img src="img/afri4.gif" class="funny" width="100%">
+        </div>
+      </section>
+      <br>
+      <section>
+        <div id="gif">
+          <img src="img/afri3.gif" class="funny" width="100%">
+      </div>
+      </section>
+    </main>
+  
+    <footer id="contact" style="background-color: #fcc5e7; height: 300px; text-align: center;  color: white; ">
+      <br>
+      <br>
+      <br>
+    Would you have any question? Let's get in touch now!
+    <br>
+    <br>
+    <br>
+  
+    <button onclick="window.location.href = 'https://instagram.com/_africhella';" class="button" style="color: #9b8884;">Contact Us</button>
+    <br>
+    <br>
+    <br>
+    
+    AFRICHELLA © 2021
+    </footer>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/b04a05239b36c1cd23c0aec46/28c41527d033d75ad8b6735ea.js");</script>
 </body>
 </html>
