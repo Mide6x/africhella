@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+  }
+  html {
+    scroll-behavior: smooth;
+    
+  }
+
+  main{
+    background-color: white;
+  }
+  body {
+   
+    width: 100%;
+    margin-left: -1px;
+    overflow-x: hidden;
+    justify-content: center;
+    font-family: 'Amiko';
+  }
+  
+  
+.button {
+        background-color: white;
+        border: none;
+        color: #9b8884;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight:bold;
+        cursor: pointer;
+        border-radius: 20px;
+        
+      }
+ 
+ 
+@media screen and (max-width: 375px) 
+    and (max-height: 812px)
+     and (-webkit-device-pixel-ratio :  3)
+   {
+      
+* {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 380px;
+  overflow-x:scroll;
+  
+}
+
+body {
+  
+  width: 380px;
+  margin-left: -1px;
+  overflow-x: hidden;
+  justify-content: center;
+  font-family: 'Amiko';
+}
+main {
+    background-color: white;
+}
+
+  .funny {
+    width: 400px;
+   margin-top: 10px;
+
+  }
+  #home {
+      margin-top: 100px;
+      background-color: white;
+  }
+  .flex{
+      font-size: 10vh;
+  }
+  #contact {
+    font-size: small;
+  }
+}
+
+@media screen and (min-device-width : 375px) 
+and (max-device-width : 667px){
+      #contact {
+        font-size: small;
+      }
+    .flex{
+        font-size: small;
+    }
+
+}
